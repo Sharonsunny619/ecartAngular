@@ -1,0 +1,44 @@
+1)lazy loading technique
+
+-module creation
+
+ ng g module moduleName
+
+
+lazy loaded module creation
+
+   ng g module modulename --route modulename --module rootmodulename 
+
+
+2) WEBSITES
+-------------
+
+* Start Bootstrap - for templates for header,footer.
+* postimages - for uploading images
+
+3) ACCESS DATA FROM COMPONENT PATH
+-----------------------------------
+
+ActivatedRoute - class
+params - method
+
+4) BEHAVIORSUBJECT in angular
+-----------------------------
+rxjs - reactive extension for javascipt (for solving asynchronous request)
+
+
+
+5) TO OPEN ECART
+==================
+
+* cmd - code .
+      ng serve --open
+
+* in src->assets->data-> 
+  cmd - npx json-server --watch db.json --port 3000
+
+6)FONT AWESOME
+---------------
+
+link = <script src="https://kit.fontawesome.com/d70a56ed2f.js" crossorigin="anonymous"></script>
+
